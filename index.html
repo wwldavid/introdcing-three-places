@@ -8,146 +8,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-      rel="stylesheet"/>
-    <style>
-      * {
-        padding: 0;
-        margin: 0;
-      }
-
-      ul,
-      button {
-        list-style: none;
-      }
-
-      body {
-        background-color: #f3f9f1;
-        font-size: 20px;
-        font-family: "Ubuntu", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-
-      .container {
-        width: 1200px;
-        margin: 20px auto;
-      }
-
-      header {
-        text-align: center;
-      }
-
-      header h1 {
-        color: #9b4400;
-      }
-
-      .nav {
-        justify-content: center;
-      }
-
-      .nav button {
-        padding: 10px;
-        border-radius: 8px;
-        border: 0.3px black solid;
-        cursor: pointer;
-        background-color: white;
-        margin-top: 30px;
-        font-size: 20px;
-        box-shadow: 0px 2px rgba(0, 0, 0, 0.3);
-      }
-
-      .nav button:hover {
-        background-color: rgb(236, 236, 236);
-      }
-
-      .container ul {
-        display: flex;
-        margin: 15px auto;
-        gap: 10px;
-      }
-
-      .container section {
-        margin: 20px 0;
-      }
-
-      .container section h3 {
-        margin-bottom: 20px;
-      }
-
-      .container section img {
-        width: 600px;
-        height: auto;
-        float: left;
-        margin: 0 20px 10px 0;
-      }
-      p {
-        text-indent: 2em;
-        text-align: justify;
-        line-height: 1.8;
-      }
-
-      .title {
-        text-align: left;
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        float: left;
-      }
-      .title img.big-image {
-        width: auto;
-        height: 425px;
-        margin-right: 20px;
-      }
-
-      .title .additional-images {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-
-      .title .additional-images img {
-        width: auto;
-        height: 135px;
-        margin-bottom: 10px;
-        display: block;
-      }
-
-      .clicked .title {
-        display: flex;
-        flex-direction: column;
-      }
-
-      .clicked .title img {
-        width: auto;
-        height: 425px;
-        display: block;
-        /* margin: 10px auto;  */
-      }
-
-      .clicked .title .big-image {
-        display: block;
-        height: 425px;
-      }
-
-      .clicked .title .additional-images {
-        display: flex;
-        flex-direction: column;
-        margin-top: 20px;
-      }
-      .clear {
-        clear: both;
-       }
-    </style>
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
 
   <body>
     <div class="container">
       <header>
-        <h1>Three places I am going to introduce</h1>
+        <h1>Life is a journey so everyone is a tourist</h1>
+        <h4>introducing three places I have visited</h4>
         <ul class="nav">
-          <button class="btn1">Longxing Temple</button>
+          <!-- <button class="btn1">Longxing Temple</button>
           <button class="btn2">Cangzhou Iron Lion</button>
-          <button class="btn3">Bowness Church</button>
+          <button class="btn3">Bowness Community</button> -->
+
+          <li><a href="#temple" class="btn1">Longxing Temple</a></li>
+          <li><a href="#lion" class="btn2">Cangzhou Iron Lion</a></li>
+          <li><a href="#bowness" class="btn3">Bowness Community</a></li>
         </ul>
       </header>
       <section class="temple" id="temple">
@@ -165,49 +43,41 @@
           </div>
         </div>
         <p>
-          Longxing Temple was originally located in the Long Tengyuan of Murong
-          Xi, Emperor Zhaowen of the later Yan. In the sixth year of Emperor Kai
-          of the Sui Emperor (586), it began to build a temple in the garden,
-          the first name of Longzang Temple, and the Tang Dynasty changed
-          Longxing Temple. In the fourth year of Kaibao in the Northern Song
-          Dynasty (971), Zhao Kuangyin, Emperor Taizu of the Song Dynasty,
-          extended the temple, built the Great Compassion Treasure Pavilion, and
-          cast a bronze statue of Guanyin Bodhisattva with thousands of hands
-          and eyes, seven zhangs high and three feet high (21.3 meters). Since
-          then, the Jin, Yuan and Ming dynasties have repaired and added to the
-          temple. During the years of Kangxi and Qianlong in Qing Dynasty, it
-          was rebuilt twice by edict, and in the 49th year of Kangxi (1710) it
-          was awarded "Longxing Temple".
+          The first place I'd like to introduce is Longxing Temple which
+          commonly regarded as a namecard of my homeland. I like there very
+          much, because entering Longxing Temple immediately gives one an
+          atmosphere of solemnness that contrasts sharply with the noisy world
+          outside the walls. Here belongs to history, belongs to eternity, a
+          person can not help but think of their own life, feel their own life
+          is short. Here, time seemed to be frozen in a moment, and I could see
+          the world passing before it, but it was unchanging.
+        </p>
+
+        <p>
+          Since its establishment, Longxing temple has a history of more than
+          1400 years. Its first name is Longzang Temple, built by emperor Kai of
+          the Sui Dynasty, and the Tang Dynasty change the name into Longxing
+          Temple. In 971, Zhao Kuangyin, emperor Taizu of the Song Dynasty,
+          extended the temple built the great compassion treasure pavilion, and
+          cast a bronze statue of Guanyin with thousands of hands. Since then,
+          the following dynasties Jin, Yuan and Ming have repaired and added the
+          temple. During the years of Kangxi and Qianlong in Qing Dynasy, it was
+          rebuilt twice by the order of the emperors.
         </p>
         <p>
-          At present, Longxing Temple covers an area of 82,500 square meters,
-          the layout and architecture retain the Song Dynasty style.
+          Therefore, the present Longxing Temple is actually very large. Here
+          you can not only experience history, but also study ancient
+          architectural techniques and styles. At present, Longxing Temple
+          covers an area of 82,500 square meters, the layout and architecture
+          retain the Song Dynasty style.
         </p>
-        <p>
-          Inside the gate is a rectangular courtyard, the bell tower and the
-          drum tower are left and right, and the middle hall of six divisions of
-          Great Jue has been destroyed, but still remains; To the north is the
-          Hall of Mani, with two sides, forming a long courtyard; Then entering
-          the second door to the north, is the main building of Great Mercy
-          Pavilion and the two sides of the Cixi Pavilion and Zhulunzang
-          Pavilion, and other secondary buildings, pavilions, halls, pavilions
-          and other forms of magnificent spatial combination, is the climax of
-          the whole building group; Finally, there is the temple of Meituo
-          located behind the temple; Among them, the Buddha Pavilion and the
-          Mituo Hall use three parallel halls.
-        </p>
-        <p>
-          The whole temple building is arranged in depth according to the
-          north-south central axis, from outside to inside, the temples overlap,
-          the courtyards change each other, the height is scattered, and the
-          main and secondary are distinct; To the north, there are archway,
-          altar, Kangxi Qianlong two imperial monument pavilion, imperial book
-          tower, collection pavilion, etc. At the end, there is the Bilu Hall
-          demolished from Chongyin Temple in Zhengding City in 1959, which was
-          built by the Ming Emperor God for his birth mother, Empress Empress
-          Cisheng.
-        </p>
+
         <div class="clear"></div>
+        <a
+          href="https://www.tripadvisor.ca/Attraction_Review-g1726792-d1805884-Reviews-Longxing_Temple-Zhengding_County_Hebei.html"
+          target="_blank"
+          >Learn more about Longxing Temple</a
+        >
       </section>
       <section class="lion" id="lion">
         <h3>Cangzhou Iron Lion</h3>
@@ -224,121 +94,109 @@
           </div>
         </div>
         <p>
-          The iron lion of Cangzhou, the Pagoda of Jingzhou in Jingxian County,
-          the Buddha statue of Longxing Temple in Zhengding County and the
-          Zhaozhou Bridge in Zhaoxian County are called the four ancient
-          treasures of Hebei. According to the original inscriptions on the
-          right side of the neck and the edge of the teeth of the iron lion, the
-          iron lion was cast in the third year of Guangshun in the later Zhou
-          Dynasty (953) [a]. There are three different theories about the
-          specific purpose of the Iron Lion. One holds that the iron lion was
-          cast by convicts you during the Northern Expedition of Emperor Sezong
-          in the later Zhou Dynasty and used for the towns and cities. Another
-          saying is that the iron lion is used in Zhenhai, hence the nickname
-          "Zhenhai Roar" [c]; There is also a belief that, based on the
-          suspected Diamond Sutra in Iron Lion's abdomen and the lotus basin on
-          its back, the Iron Lion should have been an annex of a temple, with an
-          image of Manjusri on its back, and a white elephant and a statue of a
-          Bodhisattva opposite it.
+          The second place I'd like to introduce is Cangzhou, which is my real
+          small hometown in Hebei province. My hometown is a small place
+          surrounded by shallow water, this is the reason it get the name of
+          “Cangzhou” which means in Chinese: land in the center of water.
         </p>
         <p>
-          Iron Lion is located in the ancient city of Cangzhou, Cangxian County,
-          Cangzhou City, on the north side of the road from the east gate to the
-          west gate. The actual length of the Tishlion is 6.264 meters, the body
-          is 2.981 meters wide, the full height is 5.47 meters, the belly is
-          hollow, and the weight is 32 tons, which is estimated to have weighed
-          more than 40 tons when it was built. According to the marks on the
-          lion's body, each piece of clay was cast with a width of 35 to 45
-          centimeters and a height of 20 to 25 centimeters. A total of about 500
-          pieces of clay were used. The head faces south and rises, the mouth is
-          wide open, the head has wavy hair, the limbs are splayed, the back is
-          backed by a large iron basin, the front chest and the buttocks are
-          banded, the two ends of the front chest band hang over the shoulders,
-          the buttocks band hang over the crotch. The top of the head and the
-          lower part of the neck have the inscription "Lion King", the right
-          side of the neck and the edge of the teeth have the inscription
-          "Dazhou Guangshun three years cast", the left rib has the inscription
-          "Shandong Liyun made", the abdomen has the inscription of suspected
-          diamond Sutra, the inside of the head has the inscription "Baotian,
-          Guo Baoyu" [a], and the inscription "Bei Wang □□ used" was found in
-          the lotus basin.
+          The most famous thing in my hometown is the iron Lion in Cangzhou. The
+          locals call it one of the four treasures. It was built in 953 and has
+          a history of 1,000 years. When we were kids, we used to play around
+          him with our friends and didn't realize he was so old.
         </p>
+        <p>
+          The actual length of the lion is more than 6 meters, the body is about
+          3 meters wide, the full height is more than 5 meters, the belly is
+          hollow, and the weight is 32 tons, which is estimated to have weighed
+          more than 40 tons when it was built.
+        </p>
+        <p>
+          There are several different theories about the specific purpose of the
+          Iron Lion. One holds that the iron lion was cast by convicts during
+          the Northern Expedition of Emperor Sezong in the later Zhou Dynasty
+          and used for the towns and cities. Another saying is that the iron
+          lion is used in Zhenhai, hence the nickname "Zhenhai Roar"; There is
+          also a belief that, based on the suspected Diamond Sutra in Iron
+          Lion's abdomen and the lotus basin on its back, the Iron Lion should
+          have been an annex of a temple, with an image of Manjusri on its back,
+          and a white elephant and a statue of a Bodhisattva opposite it.
+        </p>
+
         <div class="clear"></div>
+        <a
+          href="http://www.news.cn/politics/20240711/067e1b9a25094c98a3e7b3fc48420225/c.html"
+          target="_blank"
+          >Learn more about Cangzhou Iron Lion</a
+        >
       </section>
-      <section class="church" id="church">
-        <h3>Foothills Unitd Church</h3>
+      <section class="bowness" id="bowness">
+        <h3>Bowness Community</h3>
         <div class="title">
-          <img
-            src="./places/bowness_church.jpg"
-            alt="temple"
-            class="big-image"
-          />
+          <img src="./places/bo2.webp" alt="temple" class="big-image" />
           <div class="additional-images" id="church-images">
-            <img src="./places/bo2.webp" alt="Church Image 2" />
+            <img src="./places/bowness_church.jpg" alt="Church Image 2" />
             <img src="./places/bo3.jpg" alt="Church Image 3" />
             <img src="./places/bo1.webp" alt="Church Image 1" />
           </div>
         </div>
         <p>
-          Almost from the time of the first settlement in Bowness, the United
-          Church has held services here.
+          The third place I here introduces is Bowness. This is where I am
+          living now. 9 months ago, on Dec 1th 2023, I came here with my 10
+          years old son. This is where my son will attend his primary school.
         </p>
         <p>
-          The original church building (now known as Robinson Hall) was
-          dedicated on November 3, 1946. As the Official Board and congregation
-          reviewed the needs of the church in the waning months of 1955, they
-          found the existing building bursting at the seams due to the
-          tremendous growth of the community after World War II. A new addition,
-          Lawrie Hall (named after Mr. & Mrs. Robert Lawrie who dedicated the
-          land) was built and became our sanctuary. The original building
-          continues
+          Bowness is a good place because it is in the inside curve of the bow
+          river, the river is just like a bow if you look at it in the map. We
+          came here in the winter, the trees along the riverbank are leafless.
+          But to my amazement, we came to the riverbed one day, because the
+          water in the river at this season is almost dry, when we look towards
+          the upper bank of the river from the riverbed, the sun shone golden on
+          the trees along the river bank, it is a so beautiful a scenery, we
+          could never forgot.
         </p>
         <p>
-          In April 1970 Bowness United and Montgomery United were amalgamated
-          and brought together the rich traditions of their respective
-          communities to form Foothills United Church.
+          Sometimes we climb to the top of the mountain and look at the scenery
+          around us. We also notice that even at the top of the mountain there
+          are many round pebbles in the earth, and we infer that
+          even the top of the mountain should have been covered by water
+          countless years ago. It really makes people have a lot of emotion about the
+          vicissitudes of the universe.
+        </p>
+        <p>
+          There is also a small church in the neighborhood, we attend the church
+          every Sunday morning, the folks there is very friendly towards us. We
+          feel at home in the church.
+        </p>
+        <p>
+          After settled down, I realized that I am really luck to choose here to
+          begin a new life for my family. I hope you my friend may have a chance
+          to visit here.
         </p>
         <div class="clear"></div>
+        <a
+          href="https://www.calgary.ca/communities/profiles/bowness.html"
+          target="_blank"
+          >Learn more about Bowness Community</a
+        >
       </section>
+      <hr />
+      <footer>
+        <div class="footer">
+          <p>
+            The introductions to my three favorite places. Using any materials
+            from this page must be permitted by Wanlong Wu.
+          </p>
+          <p>
+            Follow me on:
+            <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+            <a href="https://www.twitter.com" target="_blank">Twitter</a> |
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+          </p>
+        </div>
+      </footer>
     </div>
 
-    <script>
-      const btn1 = document.querySelector(".btn1");
-      const btn2 = document.querySelector(".btn2");
-      const btn3 = document.querySelector(".btn3");
-
-      const templeSection = document.querySelector("#temple");
-      const lionSection = document.querySelector("#lion");
-      const churchSection = document.querySelector("#church");
-
-      const sections = document.querySelectorAll("section");
-
-      function resetImages() {
-        sections.forEach((section) => {
-          section.classList.remove("clicked");
-        });
-      }
-
-      btn1.addEventListener("click", function () {
-        resetImages();
-        window.scrollTo({ top: templeSection.offsetTop, behavior: "smooth" });
-        templeSection.classList.add("clicked");
-      });
-
-      btn2.addEventListener("click", function () {
-        resetImages();
-        window.scrollTo({
-          top: lionSection.offsetTop,
-          behavior: "smooth",
-        });
-        lionSection.classList.add("clicked");
-      });
-
-      btn3.addEventListener("click", function () {
-        resetImages();
-        window.scrollTo({ top: churchSection.offsetTop, behavior: "smooth" });
-        churchSection.classList.add("clicked");
-      });
-    </script>
+    <script src="./script.js"></script>
   </body>
 </html>
